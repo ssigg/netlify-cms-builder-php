@@ -4,65 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8accf6b4e18ff086736b9315eb3be8fd",
+    "content-hash": "d8b33857f2ff561d8b308cb1de152758",
     "packages": [
-        {
-            "name": "aptoma/twig-markdown",
-            "version": "2.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aptoma/twig-markdown.git",
-                "reference": "64a9c5c7418c08faf91c4410b34bdb65fb25c23d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aptoma/twig-markdown/zipball/64a9c5c7418c08faf91c4410b34bdb65fb25c23d",
-                "reference": "64a9c5c7418c08faf91c4410b34bdb65fb25c23d",
-                "shasum": ""
-            },
-            "require": {
-                "twig/twig": "~1.12"
-            },
-            "require-dev": {
-                "codeclimate/php-test-reporter": "dev-master",
-                "erusev/parsedown": "^1.6",
-                "knplabs/github-api": "~1.2",
-                "league/commonmark": "~0.5",
-                "michelf/php-markdown": "~1",
-                "phpunit/phpunit": "~4.0",
-                "satooshi/php-coveralls": "~0.6"
-            },
-            "suggest": {
-                "knplabs/github-api": "Needed for using GitHub's Markdown engine provided through their API.",
-                "michelf/php-markdown": "Original Markdown engine with MarkdownExtra."
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Aptoma": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Joris Berthelot",
-                    "email": "joris@berthelot.tel"
-                },
-                {
-                    "name": "Gunnar Lium",
-                    "email": "gunnar@aptoma.com"
-                }
-            ],
-            "description": "Twig extension to work with Markdown content",
-            "keywords": [
-                "markdown",
-                "twig"
-            ],
-            "time": "2015-10-23T20:27:08+00:00"
-        },
         {
             "name": "composer/ca-bundle",
             "version": "1.1.0",
@@ -351,50 +294,6 @@
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
-            "name": "force/filesystem",
-            "version": "v1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/force-components/FileSystem.git",
-                "reference": "6609ea78404205215ddac79bd917ef72458b84fc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/force-components/FileSystem/zipball/6609ea78404205215ddac79bd917ef72458b84fc",
-                "reference": "6609ea78404205215ddac79bd917ef72458b84fc",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "File.php",
-                    "Dir.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Sergey Romanenko",
-                    "email": "awilum@msn.com"
-                }
-            ],
-            "description": "File and Dir class contains methods that assist in working with files and directories.",
-            "homepage": "https://github.com/force-components/FileSystem/issues",
-            "keywords": [
-                "dir",
-                "file",
-                "filesystem",
-                "force"
-            ],
-            "time": "2015-11-03T17:47:56+00:00"
-        },
-        {
             "name": "guzzlehttp/guzzle",
             "version": "6.3.0",
             "source": {
@@ -640,165 +539,6 @@
                 "schema"
             ],
             "time": "2017-10-21T13:15:38+00:00"
-        },
-        {
-            "name": "katzgrau/klogger",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/katzgrau/KLogger.git",
-                "reference": "de2d3ab6777a393a9879e0496ebb8e0644066e3f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/katzgrau/KLogger/zipball/de2d3ab6777a393a9879e0496ebb8e0644066e3f",
-                "reference": "de2d3ab6777a393a9879e0496ebb8e0644066e3f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3",
-                "psr/log": "^1.0.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^6.0.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Katzgrau\\KLogger\\": "src/"
-                },
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Kenny Katzgrau",
-                    "email": "katzgrau@gmail.com"
-                },
-                {
-                    "name": "Dan Horrigan",
-                    "email": "dan@dhorrigan.com"
-                }
-            ],
-            "description": "A Simple Logging Class",
-            "keywords": [
-                "logging"
-            ],
-            "time": "2017-12-01T19:46:35+00:00"
-        },
-        {
-            "name": "matthiasmullie/minify",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/matthiasmullie/minify.git",
-                "reference": "7559ac0806f39f89f949c917e6612dda8154488b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/7559ac0806f39f89f949c917e6612dda8154488b",
-                "reference": "7559ac0806f39f89f949c917e6612dda8154488b",
-                "shasum": ""
-            },
-            "require": {
-                "ext-pcre": "*",
-                "matthiasmullie/path-converter": "~1.1",
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "~2.0",
-                "matthiasmullie/scrapbook": "~1.0",
-                "phpunit/phpunit": "~4.8"
-            },
-            "suggest": {
-                "psr/cache-implementation": "Cache implementation to use with Minify::cache"
-            },
-            "bin": [
-                "bin/minifycss",
-                "bin/minifyjs"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "MatthiasMullie\\Minify\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Matthias Mullie",
-                    "email": "minify@mullie.eu",
-                    "homepage": "http://www.mullie.eu",
-                    "role": "Developer"
-                }
-            ],
-            "description": "CSS & JavaScript minifier, in PHP. Removes whitespace, strips comments, combines files (incl. @import statements and small assets in CSS files), and optimizes/shortens a few common programming patterns.",
-            "homepage": "http://www.minifier.org",
-            "keywords": [
-                "JS",
-                "css",
-                "javascript",
-                "minifier",
-                "minify"
-            ],
-            "time": "2017-12-06T12:46:42+00:00"
-        },
-        {
-            "name": "matthiasmullie/path-converter",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/matthiasmullie/path-converter.git",
-                "reference": "08551ec1b156e923c242a10ab484bd4d6ead6631"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/matthiasmullie/path-converter/zipball/08551ec1b156e923c242a10ab484bd4d6ead6631",
-                "reference": "08551ec1b156e923c242a10ab484bd4d6ead6631",
-                "shasum": ""
-            },
-            "require": {
-                "ext-pcre": "*",
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.8"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "MatthiasMullie\\PathConverter\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Matthias Mullie",
-                    "email": "pathconverter@mullie.eu",
-                    "homepage": "http://www.mullie.eu",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Relative path converter",
-            "homepage": "http://github.com/matthiasmullie/path-converter",
-            "keywords": [
-                "converter",
-                "path",
-                "paths",
-                "relative"
-            ],
-            "time": "2017-01-26T08:54:49+00:00"
         },
         {
             "name": "michelf/php-markdown",
@@ -2141,74 +1881,6 @@
             "time": "2017-09-27T18:06:46+00:00"
         },
         {
-            "name": "webuni/front-matter",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/webuni/front-matter.git",
-                "reference": "2c655c21e327e50708a847c5c6a4b52f1a111fdb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/webuni/front-matter/zipball/2c655c21e327e50708a847c5c6a4b52f1a111fdb",
-                "reference": "2c655c21e327e50708a847c5c6a4b52f1a111fdb",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.6|^7.0",
-                "symfony/yaml": "^2.3|^3.0"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^1.9",
-                "mthaml/mthaml": "^1.2",
-                "nette/neon": "^2.2",
-                "phpunit/phpunit": "^5.4",
-                "sllh/php-cs-fixer-styleci-bridge": "^2.0",
-                "symfony/var-dumper": "^3.0",
-                "twig/twig": "^1.27|^2.0",
-                "yosymfony/toml": "~0.3"
-            },
-            "suggest": {
-                "nette/neon": "If you want to use NEON as front matter",
-                "yosymfony/toml": "If you want to use TOML as front matter"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Webuni\\FrontMatter\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Martin Hasoň",
-                    "email": "martin.hason@gmail.com"
-                },
-                {
-                    "name": "Webuni s.r.o.",
-                    "homepage": "https://www.webuni.cz"
-                }
-            ],
-            "description": "Front matter parser and dumper for PHP",
-            "homepage": "https://github.com/webuni/front-matter",
-            "keywords": [
-                "front-matter",
-                "json",
-                "neon",
-                "toml",
-                "yaml"
-            ],
-            "time": "2016-12-30T14:37:21+00:00"
-        },
-        {
             "name": "yosymfony/config-loader",
             "version": "v1.3.2",
             "source": {
@@ -3390,10 +3062,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "matthiasmullie/minify": 20,
-        "katzgrau/klogger": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

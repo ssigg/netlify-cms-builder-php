@@ -1,13 +1,6 @@
 {
     "require": {
         "slim/slim": "3.*",
-        "michelf/php-markdown": "1.*",
-        "twig/twig": "1.*",
-        "aptoma/twig-markdown": "2.*",
-        "webuni/front-matter": "1.*",
-        "matthiasmullie/minify": "dev-master",
-        "katzgrau/klogger": "dev-master",
-        "force/filesystem": "1.*",
         "php-http/guzzle6-adapter": "1.*",
         "splitbrain/php-archive": "1.*",
         "spress/spress-core": "2.*",
