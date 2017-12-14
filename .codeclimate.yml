@@ -1,0 +1,30 @@
+---
+engines:
+  duplication:
+    enabled: true
+    checks:
+      Identical code:
+        enabled: false
+      Similar code:
+        enabled: false
+    config:
+      languages:
+      - php
+  fixme:
+    enabled: true
+  phpmd:
+    enabled: true
+    checks:
+      CleanCode/ElseExpression:
+        enabled: false
+      Naming/LongVariable:
+        enabled: false
+      Naming/ShortVariable:
+        enabled: false
+      UnusedFormalParameter:
+        enabled: false
+ratings:
+  paths:
+  - "**.php"
+exclude_paths:
+- tests/
