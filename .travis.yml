@@ -11,10 +11,9 @@ before_script:
     mkdir tests/data & composer install -n
 
 script:
-    - ./vendor/bin/phpunit --configuration tests/phpunit.xml --coverage-clover build/logs/clover.xml tests
-    - CODECLIMATE_REPO_TOKEN=762aad35dec31cb31a0a152e455c57d6b1474f5d078a2504d4ad83cd5e515cca
-    - ./vendor/bin/test-reporter
+    - if [[ "$TRAVIS_PHP_VERSION" == '5.6' ]]; then ./vendor/bin/phpunit --configuration tests/phpunit.xml --coverage-clover build/logs/clover.xml tests ; fi
+    - if [[ "$TRAVIS_PHP_VERSION" != '5.6' ]]; then ./vendor/bin/phpunit --configuration tests/phpunit.xml tests ; fi
 
-addons:
-    code_climate:
-        repo_token: 762aad35dec31cb31a0a152e455c57d6b1474f5d078a2504d4ad83cd5e515cca
+after_script:
+    - CODECLIMATE_REPO_TOKEN=762aad35dec31cb31a0a152e455c57d6b1474f5d078a2504d4ad83cd5e515cca
+    - if [[ "$TRAVIS_PHP_VERSION" == '5.6' ]]; then ./vendor/bin/test-reporter ; fi
